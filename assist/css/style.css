@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif !important;
+}
+
+
+
+.logo {
+  height: 6rem; /* Default height for small screens */
+  transition: all 0.1s ease-in-out;
+}
+
+
+
+.logo-div {
+  height: 7rem;
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  align-items: center;
+  bottom: auto;
+}
+
+#h4{
+  letter-spacing: 1rem;
+}
+
+.navbar.scrolled .logo {
+  height: 4rem;
+  align-self: flex-end; /* or center, depending on your design */
+}
+
+.navbar.scrolled .ul {
+ padding-top: 0rem;
+}
+ .ul {
+ padding-top: 3rem;
+ font-size: 18px;
+}
+
+
+.scrolled.navbar {
+    background-color: #000 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+   
+  }
+
+  
+#nav{
+  height: 7rem;
+}
+  .navbar-brand img {
+    max-height: 60px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  
+  .second-logo {
+    display: none;
+  }
+  
+  .navbar {
+    height: 5rem;
+  }
+  .navbar.scrolled .logo {
+    display: none;
+    
+  }
+
+  .navbar.scrolled .second-logo {
+    display: inline;
+  }
+
+.ls {
+  letter-spacing: 1px;
+}
+
+.pb{
+  padding-bottom: 50%;
+}
+
+#card{
+    height: 40rem;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.card-section{
+    background: linear-gradient(to bottom, #0D1F1A, #ffffff);
+    height: 27rem;
+}
+
+.read-section{
+    background-color:#f2eaff;
+}
+
+.read-text{
+  color: #036e9d;
+}
+
+#watch-text{
+    color: #e6ab24;
+}    
+
+#watch-button{
+    background-color: #e6ab24;
+    color: #ffffff;
+}
+
+.listen-section{
+    background-color: #fff6d7;
+}
+
+#text-listen{
+    color: #db7227;
+}
+#listen-button{
+    background-color: #db7227;
+    color: #ffffff;
+}
+
+.audio-img{
+    width: 80%;
+}
+
+.app-icon{
+    width: 40%;
+}
+
+.vertical-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center horizontally */
+  margin: 0;
+  padding-left: 30px;
+  line-height: 0.8; /* reduce gap between lines */
+  font-size: 80px;
+  font-weight: 100;
+}
+
+.vertical-text .bold-big {
+  font-size: 140px;
+  font-weight: 400;
+}
+
+
+.custom-hr {
+  border: none;
+  border-top: 6px dotted #000000;
+  width: 85%;
+}
+
+
+#card-color{
+  border: 2px solid #036e9d;
+  color: #036e9d
+}
