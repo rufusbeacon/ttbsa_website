@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="english">
 
 <head>
   <meta charset="UTF-8" />
@@ -9,75 +9,71 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="assist/css/style.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 
 <body>
-  <!--Header-->
-  <header class="hder">
-  <nav class="navbar navbar-expand-md navbar-dark bg-transparent fixed-top" id="nav">
-    <div class="container-fluid">
-      <div class="d-flex justify-content-between w-100 align-self-end
+  <header class="header">
+    <nav class="navbar navbar-expand-md navbar-dark bg-transparent fixed-top" id="nav">
+      <div class="container-fluid pt-0 pt-lg-5">
+        <div class="d-flex justify-content-between w-100 align-self-end
       ">
 
-        <!-- Left Nav -->
-        <ul class="ul navbar-nav ps-0 ps-lg-5 ms-0 ms-lg-5 d-none d-md-flex">
-          <li class="nav-item ms-0 ms-lg-5 me-5">
-            <a class="nav-link text-white" href="#">Read</a>
-          </li>
-          <li class="nav-item ms-0 ms-lg-5 me-5">
-            <a class="nav-link text-white" href="#">Listen</a>
-          </li>
-          <li class="nav-item ms-0 ms-lg-5 me-4">
-            <a class="nav-link text-white" href="#">Watch</a>
-          </li>
-        </ul>
-
-        <!-- Logo (centered absolutely) -->
-        <div class="logo-div position-absolute top-50 start-50 translate-middle">
-          <a class=" d-flex align-items-center justify-content-center" href="#">
-            <img class="logo d-none d-md-inline" src="assist/logo/TTB_logo_white (1).png" alt="Logo">
-            <img class="second-logo mt-3 d-inline d-md-none" src="assist/logo/ttb_icon_white.png" alt="Logo" height="50">
-          </a>
-        </div>
-
-        <!-- Right Nav + Dropdown -->
-        <div class="d-flex pe-0 pe-lg-5 me-0 align-items-center">
-          <ul class="ul navbar-nav d-none d-md-flex me-3">
-            <li class="nav-item me-0 me-lg-5 ms-4">
-              <a class="nav-link text-white" href="#">About us</a>
+          <!-- Left Nav -->
+          <ul class="ul navbar-nav ps-0 ps-lg-5 ms-0 ms-lg-5 d-none d-md-flex">
+            <li class="nav-item ms-0 ms-lg-5 me-5">
+              <a class="nav-link text-white" href="read.html">Read</a>
             </li>
-            <li class="nav-item me-0 me-lg-5 ms-4">
-              <a class="nav-link text-white" href="#">connect</a>
+            <li class="nav-item ms-0 ms-lg-5 me-5">
+              <a class="nav-link text-white" href="#listen">Listen</a>
             </li>
-            <li class="nav-item ms-4">
-              <a class="nav-link text-white" href="#">Get Our App</a>
+            <li class="nav-item ms-0 ms-lg-5 me-4">
+              <a class="nav-link text-white" href="#watch">Watch</a>
             </li>
           </ul>
-           <!-- Language Dropdown -->
-          <div class="dropdown">
-            <button class="btn dropdown-toggle text-white border-0 bg-transparent" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              ENG
-            </button>
-            <ul class="dropdown-menu bg-transparent border-0">
-              <li><a class="dropdown-item text-white" href="#">English</a></li>
-              <li><a class="dropdown-item text-white" href="#">Hindi</a></li>
-            </ul>
+
+          <!-- Logo (centered absolutely) -->
+          <div class="logo-div position-absolute top-50 start-50 translate-middle pt-0 pt-lg-4">
+            <a class=" d-flex align-items-center justify-content-center" href="#">
+              <img class="logo d-none d-md-inline" src="assets/logo/TTB_logo_white (1).png" alt="Logo">
+              <img class="second-logo mt-3 d-inline d-md-none" src="assets/logo/ttb_icon_white.png" alt="Logo"
+                height="50">
+            </a>
           </div>
 
+          <!-- Right Nav + Dropdown -->
+          <div class="d-flex pe-0 pe-lg-5 me-0 align-items-center">
+            <ul class="ul navbar-nav d-none d-md-flex me-3">
+              <li class="nav-item me-0 me-lg-5 ms-4">
+                <a class="nav-link text-white" href="about.html">About us</a>
+              </li>
+              <li class="nav-item me-0 me-lg-5 ms-4">
+                <a class="nav-link text-white" href="#contact">Connect</a>
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link text-white" href="#get-our-app">Get Our App</a>
+              </li>
+            </ul>
+            <!-- Language Dropdown -->
+            <div class="dropdown">
+              <button class="btn dropdown-toggle text-white border-0 bg-transparent" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                ENG
+              </button>
+              <ul class="dropdown-menu bg-transparent border-0">
+                <li><a class="dropdown-item text-white" href="#">English</a></li>
+                <li><a class="dropdown-item text-white" href="#">Hindi</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        
       </div>
-      
-    </div>
-  </nav>
-</header>
-
-
+    </nav>
+  </header>
   <!--Main Section-->
-<main class="container-fluid p-0">
+  <main class="container-fluid p-0">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -91,7 +87,7 @@
 
         <!-- Slide 1 -->
         <div class="carousel-item active">
-          <img src="assist/images/graphics-01-01-01.jpg" class="d-block w-100" alt="...">
+          <img src="assets/images/graphics-01-01-01.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption align-items-center text-center  d-none d-md-block pb">
             <div class="container">
               <div class="row">
@@ -112,7 +108,7 @@
 
         <!-- Slide 2 -->
         <div class="carousel-item">
-          <img src="assist/images/graphics-01-01-01.jpg" class="d-block w-100" alt="...">
+          <img src="assets/images/graphics-01-01-01.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block text-center">
             <div class="container">
               <div class="row">
@@ -132,7 +128,7 @@
 
         <!-- Slide 3 -->
         <div class="carousel-item">
-          <img src="assist/images/graphics-01-01-01.jpg" class="d-block w-100" alt="...">
+          <img src="assets/images/graphics-01-01-01.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block text-center">
             <div class="container">
               <div class="row">
@@ -151,7 +147,7 @@
         </div>
       </div>
 
-      <!-- Carousel Controls -->
+      <!-- Carousel Controletter_spacing -->
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
         data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -170,23 +166,27 @@
           <div class="col-12 col-lg-12">
             <div id="card" class="card text-center shadow bg-body h-100">
               <div class="card-body d-flex flex-column justify-content-between py-4 h-100">
-                <h2 class="card-title fw-normal fst-italic mb-0 mb-lg-5 mt-4 ls">who we are</h2>
-                <p class="card-text fst-italic mx-lg-5 px-lg-5 fs-4 fw-light text-start ls">
+                <h2 class="card-title fw-normal fst-italic mb-0 mb-lg-5 mt-4 letter_spacing">who we are</h2>
+                <p class="card-text fst-italic mx-lg-5 px-lg-5 fs-4 fw-light text-start letter_spacing">
                   Every journey through the Bible is personal – and yours is as unique as you are. Whether you want to
                   explore
                   Scripture from the beginning or jump in anywhere, we offer study plans designed to fit your rhythm.
                 </p>
-                <p class="card-text fst-italic mx-lg-5 px-lg-5 fs-4 fw-light text-start ls">
-                  We start in Genesis (Old Testament), move into Matthew (New Testament), and continue weaving through all 66
+                <p class="card-text fst-italic mx-lg-5 px-lg-5 fs-4 fw-light text-start letter_spacing">
+                  We start in Genesis (Old Testament), move into Matthew (New Testament), and continue weaving through
+                  all 66
                   books of the Bible – thoughtfully, systematically, and book by book – helping you discover the full
                   story of
                   God’s Word.
                 </p>
                 <!-- Button -->
                 <div class=" mb-5">
-                  <button id="card-color" type="button" class="px-4 py-2 fw-bolder btn rounded-pill btn-lg ls">
+                  <a href="about.html" target="_blank">
+                  <button id="card-color" type="button"
+                    class="px-4 py-2 fw-bolder btn rounded-pill btn-lg letter_spacing">
                     Read More
                   </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -196,7 +196,7 @@
     </section>
 
     <!--Read section-->
-    <section class="read-section py-5 mt-5">
+    <section id="read" class="read-section py-5 mt-5">
       <div class="container pt-5 pt-lg-0 mt-5">
         <div class="row align-items-center mt-4 pt-5 pt-lg-0">
 
@@ -204,22 +204,25 @@
           <div class="col-lg-6 mb-4 pt-5">
             <div class="read-content text-center text-lg-start pt-5 pt-lg-0">
               <h1 id="read-text" class="read-text display-1 fw-bold pb-4">Read</h1>
-              <h5 class="fw-bold mb-5 ls">Scripture Engagement Vol.1</h5>
-              <h4 class="fw-normal read-text mb-5 ls fst-italic"><em>Your Bible journey starts here</em></h4>
+              <h5 class="fw-bold mb-5 letter_spacing">Scripture Engagement Vol.1</h5>
+              <h4 class="fw-normal read-text mb-5 letter_spacing fst-italic"><em>Your Bible journey starts here</em>
+              </h4>
 
-              <p class="fw-light fs-4 mb-5 ls">
+              <p class="fw-light fs-4 mb-5 letter_spacing">
                 <b>Volume 1</b> takes you into the beginning—where it all<br class="d-none d-md-block" /> unfolds in
                 <b>Genesis.</b> This isn't just a book.
-                It's a guided<br class="d-none d-md-block ls" /> experience through Scripture, designed to help you<br
-                  class="d-none d-md-block ls" />
+                It's a guided<br class="d-none d-md-block letter_spacing" /> experience through Scripture, designed to
+                help you<br class="d-none d-md-block letter_spacing" />
                 connect, reflect, and grow in your faith.
               </p>
 
-              <button type="button" class="btn-lg btn btn-primary rounded-pill btn-lg text-center mb-5 ls px-5 py-2">
+              <button type="button"
+                class="btn-lg btn btn-primary rounded-pill text-center mb-5 letter_spacing px-5 py-2"
+                onclick="window.open('https://heyzine.com/flip-book/5e5c12dddf.html', '_blank')">
                 Click the book to open and explore <br /><b>Scripture Engagement: Volume 1</b>
               </button>
 
-              <p class="text-primary fw-light fs-4 mb-0 ls fst-italic">
+              <p class="text-primary fw-light fs-4 mb-0 letter_spacing fst-italic">
                 Experience the ease of reading with our interactive digital<br class="d-none d-md-block" />
                 flipbook—designed to replicate the feel of a real book.<br class="d-none d-md-block" />
                 Whether you're in a quiet moment of reflection,<br class="d-none d-md-block" /> commuting, or engaging
@@ -231,15 +234,15 @@
 
           <!-- Image -->
           <div class="col-lg-6 text-center">
-            <img class="img-fluid" src="assist/images/Screenshot 2025-05-06 125640.png"
-              alt="Read Volume 1">
+            <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe"
+              src="https://heyzine.com/flip-book/5e5c12dddf.html" style=" width: 100%; height: 800px;"></iframe>
           </div>
 
         </div>
       </div>
     </section>
     <!--Watch section-->
-    <section class="watch-section py-5">
+    <section id="watch" class="watch-section py-5">
       <div class="container ">
         <div class="row justify-content-center text-center">
 
@@ -247,12 +250,12 @@
           <!-- Heading -->
           <div class="col-lg-9">
             <h1 id="watch-text" class=" display-1 fw-bold pb-4 ">Watch</h1>
-            <p class="text-start fw-bold h4 px-2 pb-5 ls">Dive deeper into the word with us</p>
+            <p class="text-start fw-bold h4 px-4 pb-4 letter_spacing">Dive deeper into the word with us</p>
           </div>
 
           <!-- Paragraph -->
           <div class="col-lg-9">
-            <p class="fw-light text-start fs-4 mb-5 px-2 ls">
+            <p class="fw-light text-center text-lg-start fs-4 mb-5 px-4 letter_spacing">
               We offer <b>in-depth scripture engagement through video teachings</b> designed to help you
               see, hear, and experience the Bible in fresh ways. Alongside the videos, you'll also find study guides,
               reflection prompts, and other resources to help you dig deeper, ask better questions, and build a stronger
@@ -262,16 +265,20 @@
           </div>
 
           <!-- Image -->
-          <div class="col-lg-9 mb-4">
-            <img id="img-of-watch" class="shadow-lg  rounded img-fluid"
-              src="assist/images/Screenshot 2025-05-08 105427.png" alt="Watch Section Image">
+          <div class="col-lg-9 mb-4 border border-5 border-white rounded-3 shadow p-3 mb-5 bg-body">
+            <a href="https://www.youtube.com/@ttbsaenglishbiblestudy/playlists" target="_blank">
+              <img id="img-of-watch" class="shadow-lg rounded img-fluid"
+                src="assets/images/WhatsApp Image 2025-06-27 at 4.21.46 PM.jpeg" alt="Watch Section Image">
+            </a>
           </div>
 
           <!-- Button -->
-          <div class="col-12 ">
-            <button id="watch-button" type="button" class="btn rounded-pill btn-lg mb-3 my-4 ls">
-              Explore More Bible Study Videos
-            </button>
+          <div class="col-12">
+            <a href="https://www.youtube.com/@ttbsaenglishbiblestudy/playlists" target="_blank">
+              <button id="watch-button" type="button" class="btn rounded-pill btn-lg mb-3 my-4 letter_spacing">
+                Explore More Bible Study Videos
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -280,47 +287,55 @@
 
 
     <!--Listen section-->
-    <section class="listen-section py-5">
+    <section id="listen" class="listen-section py-5">
       <div class="container">
         <div class="row justify-content-evenly align-items-center">
 
-          <!--Right Content: Text First on Mobile, Second on Desktop -->
-          <div class="col-lg-4 offset-md-1 order-1 order-lg-2 text-lg-end text-center mb-4 mb-lg-0">
-            <h1 id="text-listen" class="display-1 fw-bold mb-4 pt-1">Listen</h1>
-            <h5 class="fw-bold ls mb-5 ls">Scripture Audio Experience</h5>
-            <p class="fw-light text-end fs-4 mb-5 px-2 ls">
-              Step into the Word like never before. <b>Explore rich, immersive audio experiences crafted to
-                help you engage deeply with Scripture.</b>
-              Whether you're listening <b>alone</b>, with <b>family</b>, or <b>in a group</b>, each journey
-              brings the Bible to life through expressive narration and thoughtful pacing.
-            </p>
-            <button id="listen-button" type="button" class="btn rounded-pill btn-lg mb-3 ls px-4">
-              Explore More Audio
-            </button>
-          </div>
+
 
           <!--Left Content: Image Second on Mobile, First on Desktop -->
           <div class="col-lg-7 order-2 order-lg-1 text-center">
-            <img class="audio-img img-fluid shadow-lg mb-4" src="assist/images/Screenshot 2025-05-09 121312.png"
-              alt="Audio Story">
-            <p id="text-listen" class="fw-light text-start mx-4 fs-4 px-5 ls fst-italic">
+
+            <iframe class="border border-5 border-white rounded-3 shadow p-3 mb-5 bg-body"
+              src="https://ecms.thruthebible.io/listen/4c055210-04aa-403d-b1e7-2f313156f20a" width="700" height="370"
+              frameborder="0" allow="autoplay">
+            </iframe>
+
+            <p id="text-listen"
+              class="fw-light text-center text-lg-start mx-0 mx-lg-4 fs-4 px-5 letter_spacing fst-italic">
               Lets journey through the unforgettable story of Noah, the ark, and the great flood. With rich narration
               and sound,
               explore themes of trust, obedience, and God's promise in a way that's engaging for all ages.
             </p>
+          </div>
+          <!--Right Content: Text First on Mobile, Second on Desktop -->
+          <div class="col-lg-4 offset-md-1 order-1 order-lg-2 text-lg-end text-center mb-4 mb-lg-0">
+            <h1 id="text-listen" class="display-1 fw-bold mb-4 pt-1">Listen</h1>
+            <h5 class="fw-bold letter_spacing mb-5 letter_spacing">Scripture Audio Experience</h5>
+            <p class="fw-light text-center text-lg-end fs-4 mb-5 letter_spacing">
+              Step into the Word like never before. <b>Explore rich, immersive audio experiences crafted to
+                help you engage deeply with Scripture.</b>
+              Whether you're listening <b>alone</b>, with <b>family</b>, or <b>in a group</b>, each journey
+              brings the Bible to life through expressive narration and thoughtful pacing.
+            </p> 
+            <a href="https://ttb.twr.org/programs/day,0012" target="_blank">
+            <button id="listen-button" type="button" class="btn rounded-pill btn-lg mb-3 letter_spacing px-4">
+              Explore More Audio
+            </button>
+            </a>
           </div>
 
         </div>
       </div>
     </section>
     <!--App section-->
-    <section class="app-section py-5">
+    <section id="get-our-app" class="app-section py-5">
       <div class="container">
         <div class="row align-items-center">
 
           <!-- Image -->
           <div class="col-lg-6 text-center mb-4 mb-lg-0">
-            <img class="img-fluid app-image" src="assist/images/Screenshot 2025-05-09 164143.png" alt="App Image">
+            <img class="img-fluid app-image" src="assets/images/Screenshot 2025-05-09 164143.png" alt="App Image">
           </div>
 
           <!-- Text -->
@@ -333,7 +348,7 @@
               <p class="vertical-text fst-italic"> close
               </p>
             </div>
-            <p class="pt-5 pe-lg- fs-4 fw-light text-lg-end ls">
+            <p class="pt-5 pe-lg- fs-4 fw-light text-lg-end letter_spacing">
               Embark on the transformative journey<br> through <b>God's Word.</b>
               <b>Join Dr. J. Vernon<br>McGee</b> on the <b>THRU the BIBLE App</b> and dive<br>
               deep into Scripture — one book, one chapter,<br> one life-changing message at a time.
@@ -343,11 +358,16 @@
               <div class="row justify-content-end">
                 <div class=" col-12
                  justify-content-startcol align-self-endgap-3 my-4 ps-3">
-                  <img class="app-icon me-lg-5 me-0" src="assist/images/download-appstore.png" alt="">
-                  <img class="app-icon ms-lg-5 ms-0" src="assist/images/download-playstore.png" alt="">
+                 <a href="https://apps.apple.com/in/app/thru-the-bible-app/id1563980439" target="_blank">
+                  <img class="app-icon me-lg-5 me-0" src="assets/images/download-appstore.png" alt="">
+                 </a>
+                 <a href="https://play.google.com/store/apps/details?id=com.ttb.android&pcampaignid=web_share" target="_blank">
+                  <img class="app-icon ms-lg-5 ms-0" src="assets/images/download-playstore.png" alt="">
+                  </a>
                 </div>
 
-                <p id="text-listen" class="col-lg-12 download-text fs-4 mt-lg-3 mb-lg-5 fw-light fst-italic">Download the app for
+                <p id="text-listen" class="col-lg-12 download-text fs-4 mt-lg-3 mb-lg-5 fw-light fst-italic">Download
+                  the app for
                   free today for free and eplore
                   <br> oner 50 language apps to experience the program in.
                 </p>
@@ -363,24 +383,24 @@
 
           <div class="app-card">
             <img class="img-fluid shadow-lg mb-1 mt-lg-5 bg-body rounded-3"
-              src="assist/images/Screenshot 2025-05-12 152930.png" alt="">
+              src="assets/images/Screenshot 2025-05-12 152930.png" alt="">
           </div>
         </div>
       </div>
 
     </section>
 
-   <hr class="custom-hr my-4 mx-auto">
+    <hr class="custom-hr my-4 mx-auto">
 
     <!-- Contact Section -->
 
-    <section class="contact-us-section py-5">
+    <section id="contact" class="contact-us-section py-5">
       <div class="container">
         <div class="row justify-content-center text-center text-md-start align-items-center">
 
           <!-- Logo (Centered) -->
           <div class="col-12 col-md-4 mb-4 text-center">
-            <img class="img-fluid contactus-logo" src="assist/images/Screenshot 2025-05-12 161306.png" alt="">
+            <img class="img-fluid contactus-logo" src="assets/images/Screenshot 2025-05-12 161306.png" alt="">
           </div>
 
           <!-- Contact Info with Vertical Icons -->
@@ -389,28 +409,13 @@
 
             <div class="row align-items-center justify-content-center justify-content-md-start mb-3 fst-italic">
               <div class="col-12 col-md-8">
-                <h4 class="mb-0">Email Us</h4>
-              </div>
-              <div class="col-12 col-md-4 text-md-start ">
-                <img src="assist/logo/icons8-facebook-48.png" alt="Facebook" style="width: 32px;">
+                <h4 class="mb-0">Email Us :</h4>
               </div>
             </div>
 
             <div class="row align-items-center justify-content-center justify-content-md-start mb-3 fst-italic">
               <div class="col-12 col-md-8">
                 <h4 class="mb-0">Our Locations</h4>
-              </div>
-              <div class="col-12 col-md-4 text-md-start">
-                <img src="assist/logo/icons8-instagram-24.png" alt="Instagram" style="width: 32px;">
-              </div>
-            </div>
-
-            <div class="row align-items-center justify-content-center justify-content-md-start mb-3 fst-italic">
-              <div class="col-12 col-md-8">
-                <h4 class="mb-0">002 7052 0200</h4>
-              </div>
-              <div class="col-12 col-md-4 text-md-start">
-                <img src="assist/logo/icons8-whatsapp-32.png" alt="WhatsApp" style="width: 32px;">
               </div>
             </div>
 

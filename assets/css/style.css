@@ -79,7 +79,7 @@ body {
     display: inline;
   }
 
-.ls {
+.letter_spacing {
   letter-spacing: 1px;
 }
 
@@ -154,7 +154,7 @@ body {
 
 .custom-hr {
   border: none;
-  border-top: 6px dotted #000000;
+  border-top: 3px dotted black;
   width: 85%;
 }
 
@@ -162,4 +162,31 @@ body {
 #card-color{
   border: 2px solid #036e9d;
   color: #036e9d
+}
+
+/*css for about page */
+.hero-section {
+  background-image: url('../images/abt_us_bg.jpg'); /* adjust path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 144vh;
+  padding: 4rem 0;
+}
+
+/*css fo scripture reading page*/
+.hero-section-scripture-reading {
+  background-image: url('../images/SE_Read_BG.jpg'); /* adjust path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* fills full screen height */
+}
+
+.scripture-reading-card-padding {
+  padding-top: 98rem;
+}
+
+.scripture-reading-second-card-padding {
+  padding-top: 76rem;
 }
