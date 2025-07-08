@@ -190,3 +190,16 @@ body {
 .scripture-reading-second-card-padding {
   padding-top: 76rem;
 }
+
+/* letter spacing for hero */
+  .letter-spacing {
+    letter-spacing: 0.8rem;
+  }
+
+ .custom-blue {
+    color: #036e9d; /* Your Penpot deep blue or adjust as needed */
+  }
+
+  .carousel-item {
+  position: relative;
+}
