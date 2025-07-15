@@ -19,47 +19,53 @@
 <body>
 
   <!-- ========== HEADER ========== -->
-  <header class="header">
-    <nav class="navbar navbar-expand-md navbar-dark bg-transparent fixed-top" id="nav">
-      <div class="container-fluid pt-0 pt-lg-5">
-        <div class="d-flex justify-content-between w-100 align-self-end
-      ">
+<header class="header">
+ <nav class="navbar navbar-expand-xxl navbar-dark bg-transparent fixed-top" id="nav">
+    <div class="container-fluid pt-0 pt-lg-5">
+      <!-- Toggler Button for Small Screens -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <!-- Logo (always centered) -->
+      <div class="logo-div position-absolute top-50 start-50 translate-middle pt-0 pt-lg-4">
+        <a class="d-flex align-items-center justify-content-center" href="index.html">
+          <img class="logo d-none d-md-inline" src="assets/logo/TTB_logo_white (1).png" alt="Logo">
+          <img class="second-logo mt-3 d-inline d-md-none" src="assets/logo/ttb_icon_white.png" alt="Logo" height="50">
+        </a>
+      </div>
+
+      <!-- Collapsible Content -->
+    <div class="collapse navbar-collapse text-white mt-3 responsive-navbar-bg" id="navbarContent">
+        <div class="d-flex justify-content-between w-100 flex-column flex-md-row">
           <!-- Left Nav -->
-          <ul class="ul navbar-nav ps-0 ps-lg-5 ms-0 ms-lg-5 d-none d-md-flex">
-            <li class="nav-item ms-0 ms-lg-5 me-5">
+          <ul class="navbar-nav ps-0 ps-lg-5 ms-0 ms-lg-5 mb-2 mb-md-0">
+            <li class="nav-item ms-4 ms-lg-5 me-5">
               <a class="nav-link text-white" href="read.html">Read</a>
             </li>
-            <li class="nav-item ms-0 ms-lg-5 me-5">
+            <li class="nav-item ms-4 ms-lg-5 me-5">
               <a class="nav-link text-white" href="https://ttb.twr.org/programs/day,0012">Listen</a>
             </li>
-            <li class="nav-item ms-0 ms-lg-5 me-4">
+            <li class="nav-item ms-4 ms-lg-5 me-4">
               <a class="nav-link text-white" href="https://www.youtube.com/@ttbsaenglishbiblestudy/playlists">Watch</a>
             </li>
           </ul>
 
-          <!-- Logo (centered absolutely) -->
-          <div class="logo-div position-absolute top-50 start-50 translate-middle pt-0 pt-lg-4">
-            <a class=" d-flex align-items-center justify-content-center" href="index.html">
-              <img class="logo d-none d-md-inline" src="assets/logo/TTB_logo_white (1).png" alt="Logo">
-              <img class="second-logo mt-3 d-inline d-md-none" src="assets/logo/ttb_icon_white.png" alt="Logo"
-                height="50">
-            </a>
-          </div>
-
-          <!-- Right Nav + Dropdown -->
-          <div class="d-flex pe-0 pe-lg-5 me-0 align-items-center">
-            <ul class="ul navbar-nav d-none d-md-flex me-3">
-              <li class="nav-item me-0 me-lg-5 ms-4">
+          <!-- Right Nav -->
+          <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center pe-lg-5 me-lg-0">
+            <ul class="navbar-nav mb-2 mb-md-0 me-md-3">
+              <li class="nav-item me-lg-5 ms-4">
                 <a class="nav-link text-white" href="about.html">About us</a>
               </li>
-              <li class="nav-item me-0 me-lg-5 ms-4">
+              <li class="nav-item me-lg-5 ms-4">
                 <a class="nav-link text-white" href="#contact">Contact</a>
               </li>
               <li class="nav-item ms-4">
                 <a class="nav-link text-white" href="#get-our-app">Get Our App</a>
               </li>
             </ul>
+
             <!-- Language Dropdown -->
             <div class="dropdown">
               <button class="btn dropdown-toggle text-white border-0 bg-transparent" type="button"
@@ -74,8 +80,10 @@
           </div>
         </div>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
+</header>
+
   <!-- ========== MAIN CONTENT ========== -->
   <main class="container-fluid p-0">
 
@@ -131,7 +139,7 @@
         <div class="row justify-content-center text-center text-md-start align-items-center">
           <!-- Logo (Centered) -->
           <div class="col-12 col-md-4 mb-4 text-center">
-            <img class="img-fluid contactus-logo" src="assets/images/Screenshot 2025-05-12 161306.png" alt="">
+            <img class="img-fluid contactus-logo" src="assets/logo/TTB_logo.png" alt="TTB Logo">
           </div>
           <!-- Contact Info -->
           <div class="offset-md-2 col-12 col-md-4 text-center text-md-start fst-italic">
@@ -154,6 +162,8 @@
       nav.classList.toggle("scrolled", window.scrollY > 70);
     });
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
 
 </body>
 
