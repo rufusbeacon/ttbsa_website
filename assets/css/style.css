@@ -33,6 +33,7 @@ body {
 }
 
 .navbar.scrolled .logo {
+  margin-top: 25px;
   height: 4rem;
   align-self: flex-end; /* or center, depending on your design */
 }
@@ -183,13 +184,8 @@ body {
   height: 100vh; /* fills full screen height */
 }
 
-/*css for scripture reading card padding */
-.scripture-reading-card-padding {
-  padding-top: 98rem;
-}
-/*css for scripture reading second card padding*/
-.scripture-reading-second-card-padding {
-  padding-top: 76rem;
+.read-page-reading-color {
+  color: #0a3f62;
 }
 
 
