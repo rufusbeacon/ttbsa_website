@@ -12,73 +12,80 @@
   <link rel="stylesheet" href="assets/css/style.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
 <body>
- <header class="header">
- <nav class="navbar navbar-expand-xxl navbar-dark bg-transparent fixed-top" id="nav">
-    <div class="container-fluid pt-0 pt-lg-5">
-      <!-- Toggler Button for Small Screens -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
-        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <!-- Logo (always centered) -->
-      <div class="logo-div position-absolute top-50 start-50 translate-middle pt-0 pt-lg-2">
-        <a class="d-flex align-items-center justify-content-center" href="index.html">
-          <img class="logo d-none d-md-inline" src="assets/logo/TTB_logo_white (1).png" alt="Logo">
-          <img class="second-logo mt-3 d-inline d-md-none" src="assets/logo/ttb_icon_white.png" alt="Logo" height="50">
-        </a>
-      </div>
+  <!-- ========== HEADER ========== -->
+  <header class="header">
+    <nav class="navbar navbar-expand-xxl navbar-dark bg-transparent fixed-top" id="nav">
+      <div class="container-fluid pt-0 pt-lg-5">
+        <!-- Toggler Button for Small Screens -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <!-- Collapsible Content -->
-    <div class="collapse navbar-collapse text-white mt-3 responsive-navbar-bg" id="navbarContent">
-        <div class="d-flex justify-content-between w-100 flex-column flex-md-row">
-          <!-- Left Nav -->
-          <ul class="navbar-nav ps-0 ps-lg-5 ms-0 ms-lg-5 mb-2 mb-md-0">
-            <li class="nav-item ms-4 ms-lg-5 me-5">
-              <a class="nav-link text-white" href="read.html">Read</a>
-            </li>
-            <li class="nav-item ms-4 ms-lg-5 me-5">
-              <a class="nav-link text-white" href="https://ttb.twr.org/programs/day,0012">Listen</a>
-            </li>
-            <li class="nav-item ms-4 ms-lg-5 me-4">
-              <a class="nav-link text-white" href="https://www.youtube.com/@ttbsaenglishbiblestudy/playlists">Watch</a>
-            </li>
-          </ul>
+        <!-- Logo (always centered) -->
+        <div class="logo-div position-absolute top-50 start-50 translate-middle pt-0 pt-lg-2">
+          <a class="d-flex align-items-center justify-content-center" href="index.html">
+            <img class="logo d-none d-md-inline" src="assets/logo/TTB_logo_white (1).png" alt="Logo">
+            <img class="second-logo mt-3 d-inline d-md-none" src="assets/logo/ttb_icon_white.png" alt="Logo"
+              height="50">
+          </a>
+        </div>
+         <!-- Language Dropdown with Globe Icon -->
+          <div class="dropdown position-absolute top-0 end-0 pe-2">
+            <button class="btn dropdown-toggle text-white border-0 bg-transparent " type="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-globe"></i>
+            </button>
+            <ul class="dropdown-menu bg-transparent border-0 ">
+              <li><a class="dropdown-item text-white" href="#">English</a></li>
+              <li><a class="dropdown-item text-white" href="#">Hindi</a></li>
+            </ul>
+          </div>
 
-          <!-- Right Nav -->
-          <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center pe-lg-5 me-lg-0">
-            <ul class="navbar-nav mb-2 mb-md-0 me-md-3">
-              <li class="nav-item me-lg-5 ms-4">
-                <a class="nav-link text-white" href="about.html">About us</a>
+        <!-- Collapsible Content -->
+        <div class="collapse navbar-collapse text-white mt-3 responsive-navbar-bg" id="navbarContent">
+          <div class="d-flex justify-content-between w-100 flex-column flex-md-row">
+            <!-- Left Nav -->
+            <ul class="navbar-nav ps-0 ps-lg-5 ms-0 ms-lg-5 mb-2 mb-md-0">
+              <li class="nav-item ms-4 ms-lg-5 me-5">
+                <a class="nav-link text-white" href="read.html">Read</a>
               </li>
-              <li class="nav-item me-lg-5 ms-4">
-                <a class="nav-link text-white" href="#contact">Contact</a>
+              <li class="nav-item ms-4 ms-lg-5 me-5">
+                <a class="nav-link text-white" href="https://ttb.twr.org/programs/day,0012">Listen</a>
               </li>
-              <li class="nav-item ms-4">
-                <a class="nav-link text-white" href="#get-our-app">Get Our App</a>
+              <li class="nav-item ms-4 ms-lg-5 me-4">
+                <a class="nav-link text-white"
+                  href="https://www.youtube.com/@ttbsaenglishbiblestudy/playlists">Watch</a>
               </li>
             </ul>
 
-            <!-- Language Dropdown -->
-            <div class="dropdown">
-              <button class="btn dropdown-toggle text-white border-0 bg-transparent" type="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                ENG
-              </button>
-              <ul class="dropdown-menu bg-transparent border-0">
-                <li><a class="dropdown-item text-white" href="#">English</a></li>
-                <li><a class="dropdown-item text-white" href="#">Hindi</a></li>
+            <!-- Right Nav -->
+            <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center pe-lg-5 me-lg-5">
+              <ul class="navbar-nav mb-2 mb-md-0 me-md-3">
+                <li class="nav-item me-lg-5 ms-4">
+                  <a class="nav-link text-white" href="about.html">About us</a>
+                </li>
+                <li class="nav-item me-lg-5 ms-4">
+                  <a class="nav-link text-white" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item ms-4">
+                  <a class="nav-link text-white" href="index.html#get-our-app">Get Our App</a>
+                </li>
               </ul>
             </div>
           </div>
+         
         </div>
       </div>
-    </div>
-  </nav>
-</header>
+      </div>
+    </nav>
+  </header>
+
 
 
   <!--Main Section-->
@@ -98,22 +105,22 @@
         <div class="carousel-item">
           <img src="assets/images/graphics-01-01-01.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-block text-center px-3">
-    <!-- Subtitle -->
-    <p class="text-white fst-italic  fw-light fs-5 fs-md-4 letter-spacing mb-2">
-      Study Scriptures
-    </p>
+            <!-- Subtitle -->
+            <p class="text-white fst-italic  fw-light fs-5 fs-md-4 letter-spacing mb-2">
+              Study Scriptures
+            </p>
 
-    <!-- Hero Title -->
-    <h1 class="text-white m-0">
-      <span class="d-inline fw-bold display-4 display-md-5 display-lg-3">Systematically</span>
-      <span class="d-inline fst-italic fw-light display-4 display-md-5 display-lg-3"> Thoughtfully</span>
-      <span class="d-inline fw-semibold display-4 display-md-5 display-lg-3"> Deeply</span>
-    </h1>
-  </div>
-</div>
+            <!-- Hero Title -->
+            <h1 class="text-white m-0">
+              <span class="d-inline fw-bold display-4 display-md-5 display-lg-3">Systematically</span>
+              <span class="d-inline fst-italic fw-light display-4 display-md-5 display-lg-3"> Thoughtfully</span>
+              <span class="d-inline fw-semibold display-4 display-md-5 display-lg-3"> Deeply</span>
+            </h1>
+          </div>
+        </div>
 
 
-        
+
 
         <!-- Slide 2 -->
         <div class="carousel-item active">
@@ -130,27 +137,27 @@
             </div>
           </div>
         </div>
-        </div>
       </div>
+    </div>
 
-     
-        <!-- Slide 3-->
-        <div class="carousel-item">
-          <img src="assets/images/graphics-01-01-01.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-block text-center px-3">
-    <!-- Subtitle -->
-    <p class="text-white fst-italic  fw-light fs-5 fs-md-4 letter-spacing mb-2">
-      Study Scriptures
-    </p>
 
-    <!-- Hero Title -->
-    <h1 class="text-white m-0">
-      <span class="d-inline fw-bold display-4 display-md-5 display-lg-3">Systematically</span>
-      <span class="d-inline fst-italic fw-light display-4 display-md-5 display-lg-3"> Thoughtfully</span>
-      <span class="d-inline fw-semibold display-4 display-md-5 display-lg-3"> Deeply</span>
-    </h1>
-  </div>
-</div>
+    <!-- Slide 3-->
+    <div class="carousel-item">
+      <img src="assets/images/graphics-01-01-01.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-block text-center px-3">
+        <!-- Subtitle -->
+        <p class="text-white fst-italic  fw-light fs-5 fs-md-4 letter-spacing mb-2">
+          Study Scriptures
+        </p>
+
+        <!-- Hero Title -->
+        <h1 class="text-white m-0">
+          <span class="d-inline fw-bold display-4 display-md-5 display-lg-3">Systematically</span>
+          <span class="d-inline fst-italic fw-light display-4 display-md-5 display-lg-3"> Thoughtfully</span>
+          <span class="d-inline fw-semibold display-4 display-md-5 display-lg-3"> Deeply</span>
+        </h1>
+      </div>
+    </div>
 
     <!-- Carousel Controletter_spacing -->
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -260,7 +267,7 @@
               these tools are here to help you journey closer to God.
             </p>
           </div>
-          
+
           <!-- video -->
           <iframe class="border border-5 border-white rounded-3 shadow p-3 mb-5 bg-body" width="200" height="670"
             src="https://www.youtube.com/embed/z10Xpldqc38?si=XEaqbQ8ghenisfDX" frameborder="0"
@@ -394,10 +401,10 @@
       <div class="container">
         <div class="row justify-content-center text-center text-md-start align-items-center">
 
-        <!-- Logo (Centered) -->
-<div class="col-12 col-md-4 mb-4 text-center">
-  <img class="img-fluid contactus-logo" src="assets/logo/TTB_logo.png" alt="TTB Logo">
-</div>
+          <!-- Logo (Centered) -->
+          <div class="col-12 col-md-4 mb-4 text-center">
+            <img class="img-fluid contactus-logo" src="assets/logo/TTB_logo.png" alt="TTB Logo">
+          </div>
 
           <!-- Contact Info with Vertical Icons -->
           <div class="offset-md-2 col-12 col-md-4 text-center text-md-start fst-italic">
@@ -420,15 +427,15 @@
 
   <script>
 
-  window.addEventListener("scroll", function () {
-    const nav = document.getElementById("nav");
-    nav.classList.toggle("scrolled", window.scrollY > 70);
-  });
-</script>
+    window.addEventListener("scroll", function () {
+      const nav = document.getElementById("nav");
+      nav.classList.toggle("scrolled", window.scrollY > 70);
+    });
+  </script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    
+
 
 
 </body>
